@@ -1,0 +1,430 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.navbar{
+    height:80px;
+    width:100%;
+    background-color: rgb(12,60,96);
+}
+.navbar .nav1{
+        width:30%;
+        float: left;
+
+
+}
+.navbar .nav1 p{
+    color: white;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 80px;
+}
+
+.navbar .nav2{
+    width:55%;
+    float: right;
+    height:80px;
+
+}
+.navbar .nav2 a{
+            text-decoration: none;
+            line-height: 80px;
+            font-size: 15px;
+            margin-left: 30px;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar .nav2 i{
+    line-height: 80px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.hero{
+    background-image:url(Assets/1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height:700px;
+    width:100%;
+    float: left;
+}
+.hero .font{ 
+    height:230px;
+    width:50%;
+    text-align: center;
+    background-color:white;
+    margin-top: 470px;
+    margin-left:450px;
+}
+.hero .font p{
+    font-size: 25px;
+    padding-top: 20px;
+}
+.hero .font h2{
+    font-size: 50px;
+    padding-top: 20px;
+}
+.hero .font button{
+        height: 50px;
+        width:40%;
+         margin-top: 30px;
+}
+.hero .font button:hover{
+    background-color:  rgb(12,60,96);
+    color: white;
+    border: 2px solid black;
+}
+
+
+.box{
+    height:600px;
+    width:100%;
+    float: left;
+   
+
+}
+.box .box1{ 
+    height:500px;
+    width: 20%;
+    margin-left: 190px;
+    margin-top: 60px;
+    float: left;
+    padding: 30px;
+    
+}
+.box .box1 h2{
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+.box .box1 p{
+    text-align: center;
+    padding-top: 30px;
+}
+.box .box1 button{
+    height: 60px;
+    width: 60%;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.box .box1 button:hover{
+    background-color: black;
+    color: white;
+}
+
+.box .box2{ 
+    height:500px;
+    width: 20%;
+    margin-left: 120px;
+    margin-top: 60px;
+    padding: 30px;
+    float: left;
+    
+}
+
+
+.box .box2 h2{
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+.box .box2 p{
+    text-align: center;
+    padding-top: 30px;
+}
+.box .box2 button{
+    height: 60px;
+    width: 60%;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.box .box2 button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.box .box3{ 
+    height:500px;
+    width: 20%;
+    float: left;
+    margin-left: 120px;
+    padding: 30px;
+    margin-top: 60px;
+    
+}
+.box .box3 h2{
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+.box .box3 p{
+    text-align: center;
+    padding-top: 30px;
+}
+.box .box3 button{
+    height: 60px;
+    width: 60%;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.box .box3 button:hover{
+    background-color: black;
+    color: white;
+}
+ 
+.blog{
+    background-image: url(Assets/2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-color: lightblue;
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 450px;
+    background-blend-mode:screen ;
+}
+
+.blog  .blog1{
+  
+    height:500px;
+    width: 70%;
+   
+    
+}
+
+.blog  .blog1 h2{
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+.blog .blog1 p{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.blog .blog1 button{
+    height: 60px;
+    width: 60%;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.blog  .blog1 button:hover{
+    background-color: black;
+    color: white;
+}
+.img1{
+    height:500px;
+    width:100%;
+    /* background-color: rgb(110, 7, 7); */
+    float: left;
+}
+.img1 p{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 50px;
+}
+
+.img1 img{
+    padding-top: 50px;
+    margin-left: 190px;
+}
+.footer {
+    width: 100%;
+    height: 600px;
+    background-color:rgb(247,247,247);
+    float: left;
+}
+.footer .footer1{
+    width: 50%;
+    margin-top: 50px;
+    height: 450px;
+    padding: 60px;
+    margin-left: 370px;
+  
+    text-align: center;
+}
+.footer .footer1 p{
+    font-size: 50px;
+}
+.footer .footer1 h4{
+            font-size: 20px;
+            padding-top: 70px;
+}
+.footer .footer1 h1{
+    font-size: 20px;
+    padding-top: 70px;
+    color: blue;
+}
+.footer .footer1 h6{
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+
+.new1{
+    height:1200px;
+    width: 100%;
+    float: left;
+    background-color: rgb(12,60,96);
+}
+.new1 h1{
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    font-size: 45px;
+}
+
+
+.contact-form {
+    background-color: #2e5b76;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    float: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form h1 {
+    text-align: center;
+    color: rgb(152, 116, 116);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    margin-left: 30%;
+    margin-top: 3%;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: white;
+  
+}
+
+.form-group2{
+    display: flex;
+    margin-left: 200%;
+    margin-top: 3%;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: white;
+
+}
+
+
+
+.form-group input,
+.form-group textarea, 
+.form-group1 input,
+.form-group textarea, 
+.form-group2 input,
+.form-group textarea {
+    padding: 10px;
+    border: none;
+    float: right;
+    border-bottom:3px solid rgb(245, 238, 238);
+    margin-bottom: 5px;
+    color: white; 
+    font-size: 16px; 
+     background: transparent;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 20%;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 90px;
+    width:20%;
+    /* color: white; */
+    background: transparent;
+}
+
+.form-container button {
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    height:30px;
+    margin-left: 590px;
+    width: 7%;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #0c0b0b;
+    color: rgb(221, 205, 205);
+}
+.new1 img{
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.fot{
+    height: 500px;
+    width:100%;
+    float: left;
+    background-color: rgb(7,33,54);
+}
+.fot .fot1{
+    height: 500px;
+    width:30%;
+    float: left;
+    padding: 50px;
+
+    color: white;
+}
+
+.fot .fot1  p {
+        padding-top: 30px;
+}
+.fot .fot1 h1{
+    padding-top: 40px;
+}
+
+.fot .fot2{
+    height: 500px;
+    width:40%;
+    float: left;
+    padding: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+.fot .fot2  h1 {
+        padding-top: 40px;
+}
+.fot .fot2 h4{
+            padding-top: 10px;
+            
+}
+
+
+.fot .fot3{
+    height: 500px;
+    width:30%;
+    float: left;
+    padding: 50px;
+    text-align: center;
+    color: white;
+  
+}
+.fot .fot3  p {
+    padding-top: 40px;
+
+}.fot .fot3  i {
+    padding-top: 30px;
+
+}
+.fot .fot3 h1{
+    padding-top: 35px;
+    
+}

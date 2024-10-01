@@ -1,0 +1,471 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height:50px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+.main{
+    width: 100%;
+    height:800px;
+    background-color: rgb(249,219,121);
+}
+.nav{
+    width: 100%;
+    height:80px;
+    display: flex;
+    /* background-color: brown; */
+}
+.div1{      
+    width: 30%;
+    height:80px;
+    margin-left: 50px;
+    /* background-color: aqua; */
+    line-height: 80px;
+}
+.div1 a{
+    margin-left:7px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: "Oswald", sans-serif;
+}
+@font-face a{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.div2{      
+    width: 30%;
+    height:80px;
+    text-align: center;
+    margin-inline: 30px;
+    /* background-color: rgb(72, 198, 30); */
+}
+.div2 i{
+    line-height: 80px;
+    font-size: 40px;
+    /* font-weight: lighter; */
+    text-align: center;
+    font-family: "Playwrite ES", cursive;
+}
+@font-face {
+    font-family: "Playwrite ES", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.div3{      
+    width: 30%;
+    height:80px;
+    display: flex;
+    line-height: 80px;
+    text-align: center;
+    padding-left: 250px; 
+    /* margin-left: 130px;  */
+    /* background-color: rgb(139, 12, 126); */
+}
+
+.div3 i,p{
+    line-height: 80px; 
+    padding-left: 20px; 
+    font-size: 20px;
+    text-align: center;
+}
+
+.con{
+    width: 100%;
+    height: 650px;
+    margin-top: 50px;
+    background-image: url(Assets/1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+.con p{
+    text-align: center;
+    font-size: 40px;
+    padding-top:250px;
+    font-family: "Playfair Display", serif;
+}
+.con h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: "Playfair Display", serif;
+}
+@font-face {
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.con button{
+    height: 40px;
+        width: 15%;
+    margin-top: 100px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+.con button:hover{
+    background-color: black;
+    color: white;
+}
+
+.blog{
+    width: 100%;
+    height: 630px;
+    /* background-color: aqua; */
+    display: flex;
+}
+.blog .blog1{
+    width: 50%;
+    height:  630px;
+    /* background-color: blueviolet;     */
+}
+.blog .blog2{
+    width:50%;
+    height:  630px;
+    text-align: center;
+    /* background-color: rgb(29, 187, 100); */
+}
+.blog2 h1{
+    padding-top: 100px;
+    font-weight:500;
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+}
+@font-face {
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.blog2 i{
+    font-family: "Playwrite US Trad", cursive;
+    font-size: 20px;
+}
+
+
+.blog2 p{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.blog2 button{
+    height: 40px;
+    width: 15%;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+.blog2 button:hover{
+    background-color: black;
+    color: white;
+}
+
+.hero{
+    height: 750px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(181,232,213);
+    background-image: url(Assets/5.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: white;
+}
+.hero p{
+        padding-top: 250px;
+        font-size: 50px;
+}
+.hero h1{
+        font-size: 150px;
+}
+.hero button{
+    height: 40px;
+    width: 15%;
+    margin-top: 30px;
+    background-color: white;
+    /* border: 2px solid black; */
+    color: black;
+}
+
+.hero button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.img{
+    width: 100%;
+    height: 630px;
+    /* background-color: aqua; */
+    display: flex;
+}
+.img .img1{
+    width: 50%;
+    height:  630px;
+    /* background-color: blueviolet;     */
+}
+.img .img2{
+    width:50%;
+    height:  630px;
+    text-align: center;
+    /* background-color: rgb(29, 187, 100); */
+}
+.img2 h1{
+    padding-top: 100px;
+    font-weight:500;
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+}
+@font-face {
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.img2 i{
+    font-family: "Playwrite US Trad", cursive;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+
+.img2 p{
+    
+    margin: 0px;
+    padding: 0px;
+    line-height:5   0px;
+}
+.img2 button{
+    height: 40px;
+    width: 15%;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+.img2 button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+.fot{
+    height: 750px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255,191,179);
+    background-image: url(Assets/6.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: white;
+}
+.fot p{
+        padding-top: 250px;
+        font-size: 50px;
+}
+.fot h1{
+        font-size: 150px;
+}
+.fot button{
+    height: 40px;
+    width: 15%;
+    margin-top: 30px;
+    background-color: white;
+    /* border: 2px solid black; */
+    color: black;
+}
+
+.fot button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+.fot1{
+    width: 100%;
+    height: 630px;
+    /* background-color: aqua; */
+    display: flex;
+}
+.fot1 .fot2{
+    width: 50%;
+    height:  630px;
+    /* background-color: blueviolet;     */
+}
+.fot1 .fot2{
+    width:50%;
+    height:  630px;
+    text-align: center;
+    /* background-color: rgb(29, 187, 100); */
+}
+.fot3{
+    text-align: center;  
+    padding-left: 140px;
+}
+.fot3 h1{
+    padding-top: 100px;
+    font-weight:500;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+}
+@font-face {
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.fot3 i{
+    font-family: "Playwrite US Trad", cursive;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+
+.fot3 p{
+    
+    margin: 0px;
+    padding: 0px;
+    line-height:5   0px;
+}
+.fot3 button{
+    height: 40px;
+    width: 15%;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+.fot1 button:hover{
+    background-color: black;
+    color: white;
+}
+
+.box{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(181,232,213);
+    background-image: url(Assets/12.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-blend-mode: soft-light; */
+}
+
+.container{
+    width: 100%;
+    height:350px;
+    margin-top: 90px;
+    display: flex;
+    background-color: black;
+}
+.container .img1{
+    width: 25%;
+    height:350px;
+    background-color: blue;
+}
+.container .img2{
+    width: 25%;
+    height:350px;
+    background-color: blue;
+}
+.container .img3{
+    width: 25%;
+    height:350px;
+    background-color: blue;
+}
+.container .img4{
+    width: 25%;
+    height:350px;
+    background-color: blue;
+}
+
+.footer{
+    width: 100%;
+    height:350px;
+    color: white;
+    margin-top:20px ;
+    display: flex;
+    
+    background-color:black;
+}
+
+.footer .new1 {
+    width: 50%;
+    height:350px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction:initial;
+    padding-left: 90px;
+    font-size: 21px;
+}
+ .new1 .add1 h2{
+    padding-top: 30px;
+   
+}
+.new1 .add1 h6{
+    padding-top: 20px;
+}
+ .new1 .add2 h2{
+    padding-top: 30px;
+    padding-left: 50px;
+   
+}
+.new1 .add2 h6{
+    padding-top: 20px;
+    padding-left: 50px;
+   
+}
+ .new1 .add3 h2{
+    padding-top: 30px;
+    padding-left: 50px;
+   
+}
+.new1 .add3 h6{
+    padding-top: 20px;
+    padding-left: 50px;
+   
+}
+
+.footer .new2 {
+    width: 50%;
+    height:350px;
+    padding-top: 60px;
+    padding-left: 90px;
+    font-size: 30px;
+}
+.new2 input{
+    width: 40%;
+    height: 30px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+.new2 button{
+    height: 40px;
+    width: 15%;
+    margin-top: 30px;
+    background-color: black;
+    border: 2px solid rgb(128, 113, 113);
+    color: white;
+    
+}
+.new2 button:hover{
+    background-color:grey;
+    color: white;
+}

@@ -1,0 +1,527 @@
+*{
+        margin: 0px;
+        padding: 0px;
+}
+
+.navbar{
+        width:100%;
+        margin-top: 30px;
+        height:60px;
+}
+
+.navbar .nav-1{
+        height:60px;
+        width:30%;
+        float: left;
+}
+.navbar .nav-1 i{
+        font-size: 30px;
+        float: left;
+}
+
+.navbar .nav-1 input{
+        line-height:40px ;
+        font-size:170%;
+       padding-left: 20px;
+        font-weight: 10px;
+        border:none;
+}
+
+.navbar .nav-2{
+        height:60px;
+        width:40%;
+        float: left;
+        margin:10px;
+}
+.navbar .nav-2 h3{
+        font-family:cursive;
+        text-align: center;
+        font-size: 50px;
+        line-height: 60%;
+        color: rgb(193,90,59);
+}
+.navbar .nav-3 { 
+        width:26%;
+        float: left;
+}
+.navbar .nav-3 i{
+                padding:10px;            
+}
+
+.navlinks{
+        height:70px;
+        width:100%;
+        text-align: center;
+}
+.navlinks a{
+        font-size: 20px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: none;
+        align-content: center;
+        padding: 40px;
+        color: black;
+}
+.navlinks a:hover{
+        text-decoration: underline;
+}
+
+.hero{
+        width: 100%;
+        height:500px;
+        background-image: url(Assets/1.jpg);     
+        text-align: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+
+}
+.hero p{
+        font-size: 70px;
+        color: white;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 140px;
+}
+.hero button{
+        width: 20%;
+        padding: 20px;
+        background-color: transparent;
+        margin-top: 50px;
+}
+.hero button:hover{
+        border: 3px solid grey;
+        background-color: white;
+}
+.blog{
+        width:100%;
+        height:200px;
+        text-align: center;
+}
+.blog p{
+        font-size: 40px;
+        padding-top: 120px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.blog1{
+        width:90%;
+        height: 450px;
+        padding: 70px;
+        text-align: center;
+
+}
+
+.blog1 .img1{
+        width:20%;
+        height:500px;
+        margin-left: 60px;
+                float: left;
+}
+.blog1 .img1 p{
+        padding: 20px;
+        font-size: 30px;
+        color: gray;
+}
+
+.blog1 .img2{
+        width:20%;
+        margin-left: 60px;
+        height:500px;
+        float: left;
+}
+.blog1 .img2 p{
+        padding: 20px;
+        font-size: 30px;
+        color: gray;
+}
+.blog1 .img3{
+        width:20%;
+        height:500px;
+        margin-left:60px;
+        float: left;
+}
+.blog1 .img3 p{
+        padding: 20px;
+        font-size: 30px;
+        color: gray;
+}
+.blog1 .img4{
+        width:20%;
+        height:500px;
+        margin-left: 60px;
+        float: left;
+}
+.blog1 .img4 p{
+        padding: 20px;
+        font-size: 30px;
+        color: gray;
+}
+
+.buttom{
+        width:100%;
+        height:90px;
+        text-align: center;
+}
+.buttom button{
+        font-size: 20px;
+        padding: 30px;
+        width: 20%;
+        color: rgb(14, 166, 151);
+        
+}
+.buttom button:hover{
+        border:2px solid white;
+        background-color: black;
+
+
+}
+ .box1 {
+        margin-top: 100px;
+        width:100%;
+        height:660px;
+
+ }
+ .box1 .a{
+        text-align: center;
+        padding-top: 60px;
+        width:50%;
+        height:605px;
+        background-color: rgb(246,243,239);
+        float: left;
+ }
+ .box1 .b{
+        width:50%;
+        height:660px;
+        float: right;
+       
+ }
+ .box1 .a p{
+        padding: 20px;
+        font-size: 40px;
+        color: gray;
+ }
+ .box1 .a h4{
+        color: red;
+        font-size: 20px;
+ }
+ .box1 .b {
+        width: 50%;
+        height:660px;
+        background-image: url(Assets/7.jpg); 
+        background-attachment: fixed;
+        float: right;
+ }
+ .box1 .b p{
+        text-align: center;
+        padding-top: 300px;
+        text-decoration: underline;
+        color: white;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .box2 {
+        float: left;
+        width:100%;
+        height:660px;
+        background-color: black;
+ }
+ .box2 .a{
+        background-image: url(Assets/8.webp);
+        background-size: cover;
+        width:50%;
+        height:660px;
+        float: left;
+        
+ }
+ .box2 .a p{
+        text-align: center;
+        padding-top: 300px;
+        text-decoration: underline;
+        color: white;
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .box2 .b {
+        background-color: rgb(248,244,240);
+        width:50%;
+        float: left;
+        height:560px;
+        text-align: center;
+        padding-top: 100px;
+ }
+ .box2 .b p{
+        padding: 20px;
+        font-size: 40px;
+        color: gray;
+ }
+ 
+ .box2 .b h4{
+        color: red;
+        font-size: 20px;
+ }
+
+ .box3{
+        width:100%;
+        height:400px;
+        float: left;
+        margin-top: 100px;
+      text-align: center;   
+ }
+
+ .box3 .div1{
+        background-image:url(Assets/10.webp);
+        width:30.33%;
+        height:400px;
+        margin-left: 50px;
+        background-repeat: no-repeat;
+        float: left;
+ }
+ .box3 .div1 p{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 150px;  
+        padding-left: 60px;  
+        font-family: cursive;
+        
+ }
+ .box3 .div1 h2{
+        text-align: center;
+        font-size: 40px;
+ }
+
+ .box3 .div2{
+        background-image:url(Assets/11.webp);
+        width:30.33%;
+        height:400px;
+        background-repeat: no-repeat;
+       margin-left: 30px;
+        float: left;
+ }
+ .box3 .div2 p{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 150px;  
+        padding-left: 60px;  
+        font-family: cursive;
+        
+ }
+ .box3 .div2 h2{
+        text-align: center;
+        font-size: 40px;
+ }
+
+ .box3 .div3{
+        background-image:url(Assets/12.webp);
+        width:30.33%;
+        height:400px;
+        background-repeat: no-repeat;
+        margin-left: 30px;
+        float: left;
+        background-size: contain;
+ }
+
+ .box3 .div3 p{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 150px;  
+        padding-left: 60px;  
+        font-family: cursive;
+        
+ }
+ .box3 .div3 h2{
+        text-align: center;
+        font-size: 40px;
+ }
+ 
+ .box4{
+        width:100%;
+        height:900px;
+        float: left;
+        margin-top: 70px;
+      text-align: center; 
+      background-color: rgb(246,243,239);  
+ }
+ .box4 p{
+        width:100%;
+        height:200px;
+        /* background-color: blueviolet; */
+        font-size: 40px;
+        padding-top:100px;
+       
+ }
+ .box4 p i{
+        color: brown;
+ }
+
+ .box4 .line2{
+        width:100%;
+        height:260px;
+        
+ }
+ .box4 .line2 .img1{
+        width:20%;
+        height:260px;
+        float: left;
+        font-size: 50px;
+   
+      
+      
+}
+.box4 .line2 .img2{
+        
+        float: left;
+        width:20%;
+        height:260px;
+  
+}
+
+.box4 .line2 .img3{
+        width:20%;
+        float: left;
+        
+        height:260px;
+  
+}
+.box4 .line2 .img4{
+        width:20%;
+        height:260px;
+        float: left;
+  
+}
+.box4 .line2 .img5{
+        width:20%;
+        height:0px;
+        float: left;
+  
+}
+
+.box4 .box5{
+        width: 100%;
+        height:300px;
+       
+}
+
+.box4 .box5 .font1{
+        padding-top: 30px;
+        margin-top: 40px;
+        width:30%;
+        margin-left: 30px;
+        float: left;
+        height:300px;
+       
+}
+.box4 .box5 .font1 p{
+        /* padding-left: 40px; */
+        font-size: 40px;
+        color:rgb(190,82,49);
+        font-family: cursive;
+        
+}
+
+.box4 .box5 .font2{
+        padding-top: 30px;
+        margin-top: 40px;
+        width:30%;
+        margin-left: 30px;
+        float: left;
+        height:300px;
+       
+}
+.box4 .box5 .font2 p{
+        /* padding-left: 40px; */
+        font-size: 40px;
+        color:rgb(190,82,49);
+        font-family: cursive;
+        
+}
+.box4 .box5 .font3{
+        padding-top: 30px;
+        margin-left: 30px;
+        margin-top: 40px;
+        width:30%;
+        float: left;
+        height:300px;
+       
+}
+.box4 .box5 .font3 p{
+        /* padding-left: 40px;   */
+        font-size: 40px;
+        font-family: cursive;
+        color:rgb(190,82,49);
+        
+}
+
+.footer{
+        width: 100%;
+        height:400px;
+       
+        float: left;
+}
+.footer .div1{
+        width: 20%;
+        height:400px;
+        float: left;
+        
+}
+.footer .div1 h3{
+        font-family:cursive;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 150px;
+        line-height: 60%;
+        color: rgb(193,90,59);
+}
+.footer .div2{
+        width: 20%;
+        float: left;
+        height:400px;
+}
+.footer .div2 h3{
+        text-align: center;
+        padding-top: 50px;
+}
+.footer .div3{
+        width: 20%;
+        float: left;
+        height:400px;
+}
+.footer .div3 h3{
+        text-align: center;
+        padding-top: 50px;
+}
+.footer .div4{
+        width: 20%;
+        float: left;
+        height:400px;
+}
+.footer .div4 h3{
+        text-align: center;
+        padding-top: 50px;
+}
+.footer .div5{
+        padding-bottom: 40px;
+        width: 12%;
+        float: left;
+        height:300px;
+        padding: 40px;
+}
+
+.footer .div5 input{
+        
+        border: none;
+        border-bottom: 1px solid black;
+        background: transparent;
+        font-size: 16px; 
+}
+.footer .div5 h2{
+        padding-bottom: 40px;
+}
+.footer .div5 button{
+        height: 40px;
+        margin-top: 30px;
+        width: 30%;
+        float: left;
+}
+.footer .div5 button:hover{
+        background-color: black;
+        color: white;
+}

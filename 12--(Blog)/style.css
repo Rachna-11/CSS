@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    height:80px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav1{
+    height:80px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav2{
+    height:80px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding-left: 200px;
+}
+.nav2 a{
+    font-size: 19px;
+    text-decoration: none;
+    color: gray;
+    transition: 1s;
+ }
+ .nav2 a:hover{
+    color:rgb(23, 23, 216);
+    border-bottom: 2px solid black;
+    transition: 1s;
+ }
+ .nav .nav2 i{
+    display: none;
+ }
+ .main{
+        height: 600px;
+        width: 100%;
+ }
+ .main img{
+    margin-left: 40px;
+ }
+ .text{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .blog{
+    height: 1500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog .blog1{
+    height: 1300px;
+    width: 40%;
+}
+.blog .blog1 .div{
+    height: 350px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+.blog .blog1 .div .div1{
+    height: 350px;
+    width: 44%;
+
+    object-fit: cover;
+}
+.blog .blog1 .div .div2{
+    height: 350px;
+    width: 56%;
+    padding: 30px;
+    border: 1px solid black;
+    border-left: none;
+    object-fit: cover;
+}
+.blog .blog1 .div .div2 h1{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.blog .blog1 button{
+    height: 60px;
+    width: 30%;
+    border: none;
+    font-size: 20px;
+    margin-top: 30px;
+    transition: 2s;
+    background-color: rgb(187,90,58);
+}
+
+.blog .blog1 button:hover{
+    background-color: black;
+    color: white;
+    transition: 2s;
+}
+
+.blog .blog2{
+    height: 1500px;
+    width: 40%;
+    background-color:brown;
+}
+.blog .blog2 .blo1{
+    height: 1500px;
+    width: 100%;
+    padding-top: 20%;
+    background-color: rgb(254,242,240);
+}
+.blog .blog2 .blo2{
+    height: 480px;
+    width: 70%;
+    padding: 15%;
+    color: white;
+    font-size: 22px;
+    margin-left: 85px;
+    background-color: rgb(187,90,58);
+}
+.blog .blog2 .blo2 h1{
+    margin-bottom: 30px;
+}
+.blog .blog2 .blo2 label
+{
+    color: white;
+}
+.blog .blog2 .blo2 input{
+   
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+.blog .blog2 .blo2 button{
+    height: 39px;
+    width: 70%;
+    margin-top:60px;
+    margin-left: 40px;
+    background-color: white;
+    color: rgb(187,90,58);
+    border: none;
+    font-size: 17px;
+    transition: 2s;
+}
+
+.blog .blog2 .blo2 button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+.blog .blog2 .blo1 h2{
+    margin-top: 30px;
+    margin-left: 150px;
+    font-size: 30px;
+}
+
+.blog .blog2 .blo1 .blo3{
+    height: 650px;
+    width: 70%;
+    margin: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog .blog2 .blo1 .blo3 img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.blog .blog2 .blo1 i{
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.footer{
+    height: 500px;
+    width: 100%;
+    margin-top: 70px;
+    background-color: rgb(254,242,240);
+}
+.footer h1{
+    text-align: center;
+    padding-top :60px;
+    font-size: 45px;
+}
+.footer .fot1{
+    height: 300px;
+    width: 50%;
+    margin-left: 27%;
+    margin-top:3%;
+    padding: 2%;
+}
+.contact-form {
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    gap: 100px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    flex: 2;    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color:grey;
+    border: none;
+    border: transparent;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom:3px solid  gray;
+    border-radius: 4px;
+    color:grey;
+    font-size: 14px;
+}
+input:hover{
+    border-bottom:3px solid  rgb(187,90,58); 
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgb(84, 82, 82);
+    font-size: 15px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    width: 30%;
+    border-radius: 4px;
+    background-color: rgb(187,90,58);
+    color: #fff;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 200px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #120d0d;
+    color:white
+}
+
+.footer .fot2{
+    height: 70px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgb(187,90,58);
+}
+.footer .fot2 p{
+    line-height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
